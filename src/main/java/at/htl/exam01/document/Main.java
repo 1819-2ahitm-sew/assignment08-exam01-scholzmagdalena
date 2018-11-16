@@ -1,7 +1,10 @@
 package at.htl.exam01.document;
 
+import java.awt.print.Book;
+
 public class Main {
 
+    private static final String FILE_NAME = "uebung2.txt";
     /**
      *
      * Führen Sie hier folgendes durch:
@@ -22,6 +25,12 @@ public class Main {
      * @param args
      */
     public static void main(String[] args) {
+
+        Main sc = new Main();
+
+        Book book1 = new Book();
+
+        Book book2 = new Book();
 
 
     }
