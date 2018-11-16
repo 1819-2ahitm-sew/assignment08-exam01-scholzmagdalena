@@ -84,15 +84,6 @@ public class StringCompress {
      */
     public static void print(String[] lines) {
 
-        System.out.println(lines);
-
-        int i = 0;
-
-        while(i < getNoOfLines(FILE_NAME)){
-
-            readFromFile(FILE_NAME);
-
-        }
 
     }
 

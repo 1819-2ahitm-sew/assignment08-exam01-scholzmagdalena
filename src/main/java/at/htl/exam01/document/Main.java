@@ -1,10 +1,9 @@
 package at.htl.exam01.document;
 
-import java.awt.print.Book;
+import java.util.Scanner;
 
 public class Main {
 
-    private static final String FILE_NAME = "uebung2.txt";
     /**
      *
      * Führen Sie hier folgendes durch:
@@ -24,13 +23,25 @@ public class Main {
      *
      * @param args
      */
+
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-        Main sc = new Main();
+        int eingabe = scanner.nextInt();
 
-        Book book1 = new Book();
+        do {
+            switch (eingabe){
+                case 1:
 
-        Book book2 = new Book();
+                    break;
+                case 2:
+
+                    break;
+                case 3:
+
+                    break;
+            }
+        }while (eingabe != 0);
 
 
     }
